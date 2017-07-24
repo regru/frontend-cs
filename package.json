@@ -1,0 +1,15 @@
+{
+  "name": "frontend-cs",
+  "version": "1.0.0",
+  "description": "`make cs target=$(path_to_your_folder)`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.reg.ru:regru/frontend-cs.git"
+  },
+  "author": "Ivan Sobolev",
+  "license": "ISC"
+}
