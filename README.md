@@ -16,8 +16,8 @@
 - Makefile
 - своё...
 
-- make init target=my_folder - обновляет репо, ставит npm-модули, копирует файлы
-- make cs target=my_folder - обновляет репо, копирует файлы
+- `make init target=my_folder` - обновляет репо, ставит npm-модули, копирует файлы
+- `make cs target=my_folder` - обновляет репо, копирует файлы
 
 
 
