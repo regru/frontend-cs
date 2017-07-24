@@ -1,6 +1,7 @@
 # Репозиторий для хранения настроек Code Style
 
-`make cs target=$(path_to_your_folder)`
+`make cs target=path_to_your_folder`
+
 
 Всё, что он делает:
  - обновляет репозиторий
