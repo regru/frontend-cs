@@ -1,4 +1,4 @@
-FILES = .eslintrc .jshintrc .csscomb.json .stylelintrc
+FILES = .eslintrc.json .jshintrc .csscomb.json .stylelintrc
 define \n
 
 
