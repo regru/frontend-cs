@@ -5,45 +5,23 @@
         "es6": true,
         "jquery": true
     },
-    "extends": "eslint:recommended",
+    "extends": [ "eslint:recommended" ],
     "parser": "babel-eslint",
     "parserOptions": {
+        "ecmaVersion": 2017,
         "sourceType": "module",
         "allowImportExportEverywhere": true
     },
-    "globals": {
-        "Site": true,
-        "JST": true,
-        "REGRU": true,
-        "lang": true,
-        "ru": true,
-        "en": true,
-        "static_prefix": true,
-        "_": true,
-        "Backbone": true,
-        "ga": true,
-        "t": true,
-        "t_or_undef": true,
-        "locale": true,
-        "stopEvent": true,
-        "punycode": true,
-        "glamor_confirm": true,
-        "glamor_alert": true,
-        "Modernizr": true,
-        "moment": true,
-        "confirmDialogPromise": true,
-        "confirmDialog": true,
-        "pm": true,
-        "getQueryParams": true
-    },
     "plugins": [
-        "regru",
-        "vue"
+        "regru"
     ],
     "rules": {
         "indent": [
             "error",
-            4
+            4,
+            {
+                "SwitchCase": 1
+            }
         ],
         "linebreak-style": [
             "error",
@@ -57,7 +35,6 @@
             "error",
             "always"
         ],
-        // в классах запятую не надо, как и function
         "comma-dangle": [
             "error",
             "always-multiline"
@@ -184,3 +161,4 @@
         "semi-spacing": "error"
     }
 }
+
