@@ -8,6 +8,8 @@
     "extends": ["eslint:recommended", "plugin:vue/recommended"],
     "parser": "babel-eslint",
     "parserOptions": {
+        "parser": "babel-eslint",
+        "ecmaVersion": 2017,
         "sourceType": "module",
         "allowImportExportEverywhere": true
     },
@@ -38,14 +40,17 @@
         "__base": true,
         "__publicPath": true
     },
+
     "plugins": [
-        "regru",
-        "vue"
+        "regru"
     ],
     "rules": {
         "indent": [
             "error",
-            4
+            4,
+            {
+                "SwitchCase": 1
+            }
         ],
         "linebreak-style": [
             "error",
@@ -59,7 +64,6 @@
             "error",
             "always"
         ],
-        // в классах запятую не надо, как и function
         "comma-dangle": [
             "error",
             "always-multiline"
@@ -187,3 +191,4 @@
         "semi-spacing": "error"
     }
 }
+
