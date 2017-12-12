@@ -1,5 +1,5 @@
 {
-    "extends": "./eslint.es6.json",
+    "extends": [ "plugin:vue/recommended" ],
     "rules": {
         "indent": [
             "warn",
