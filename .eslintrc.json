@@ -5,7 +5,7 @@
         "es6": true,
         "jquery": true
     },
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended", "plugin:vue/recommended"],
     "parser": "babel-eslint",
     "parserOptions": {
         "sourceType": "module",
@@ -34,7 +34,9 @@
         "confirmDialogPromise": true,
         "confirmDialog": true,
         "pm": true,
-        "getQueryParams": true
+        "getQueryParams": true,
+        "__base": true,
+        "__publicPath": true
     },
     "plugins": [
         "regru",
@@ -74,7 +76,7 @@
         "no-floating-decimal": "error",
         "no-global-assign": "error",
         "no-loop-func": "error",
-        "no-magic-numbers": ["error", { "detectObjects": true, "ignore": [ -1, 0, 1, 2, 3, 4, 5, 10, 20, 24, 50, 60, 100, 500, 1000 ] }],
+        "no-magic-numbers": ["error", { "detectObjects": true, "ignore": [ -1, 0, 1, 2, 3, 4, 5, 10, 20, 24, 50, 60, 100, 400, 500, 1000, 200, 404 ] }],
         "no-multi-spaces": [
             "error",
             {
@@ -168,6 +170,7 @@
         "object-property-newline": ["error"],
         "operator-linebreak": ["error", "before"],
         "brace-style": ["error", "stroustrup"],
+        "lines-around-directive": ["error", "always"],
         "lines-around-comment": ["error",
             {
                 "beforeBlockComment": true,
