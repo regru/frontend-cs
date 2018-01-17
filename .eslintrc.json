@@ -134,6 +134,7 @@
         ],
         "no-inner-declarations": 1,
         "one-var-declaration-per-line": ["error", "always"],
+        "one-var": ["warn", "never"],
         "camelcase": "warn",
         "newline-after-var": ["error", "always"],
         "newline-before-return": "error",
