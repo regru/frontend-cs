@@ -2,7 +2,7 @@
 
 - [CodeStyle](doc/cs.md)
 - [Vue.js Style Guide](doc/vue.md)
-- [Vue.js Cookbook](doc/vue-cookbok.md)
+- [Vue.js Cookbook](doc/vue-cookbook.md)
 - [Настройки редакторов](doc/editors.md)
 
 ## Подключение
