@@ -337,7 +337,7 @@ js.1.8. После объявления переменных всегда иде
 
 ```js
 var string = 'my string';
-var float = 0.22;
+var float  = 0.22;
 var data;
 
 // here your code
