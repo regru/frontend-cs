@@ -1,4 +1,11 @@
-# Репозиторий для хранения настроек Code Style
+# Frontend Code Style и его конфиги
+
+- [CodeStyle](doc/cs.md)
+- [Vue.js Style Guide](doc/vue.md)
+- [Vue.js Cookbook](doc/vue-cookbook.md)
+- [Настройки редакторов](doc/editors.md)
+
+## Подключение
 
 `make cs target=path_to_your_folder`
 

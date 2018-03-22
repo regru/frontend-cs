@@ -5,8 +5,10 @@
         "es6": true,
         "jquery": true
     },
-    "extends": ["eslint:recommended"],
-    "parser": "babel-eslint",
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
     "parserOptions": {
         "parser": "babel-eslint",
         "ecmaVersion": 2017,
@@ -138,6 +140,7 @@
         "no-inner-declarations": 1,
         "one-var-declaration-per-line": ["error", "always"],
         "camelcase": ["warn", {"properties": "never"}],
+        "one-var": ["warn", "never"],
         "newline-after-var": ["error", "always"],
         "newline-before-return": "error",
         "object-curly-newline": [
