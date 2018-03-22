@@ -14,7 +14,10 @@
         "allowImportExportEverywhere": true
     },
     "plugins": [
-        "regru"
+        "regru",
+        "shopify",
+        "promise",
+        "compat"
     ],
     "rules": {
         "indent": [
@@ -134,13 +137,25 @@
         ],
         "no-inner-declarations": 1,
         "one-var-declaration-per-line": ["error", "always"],
-        "camelcase": "warn",
+        "camelcase": ["warn", {"properties": "never"}],
         "newline-after-var": ["error", "always"],
         "newline-before-return": "error",
         "object-curly-newline": [
             "warn",
             {
-                "multiline": true
+                "ObjectExpression": {
+                    "consistent": true,
+                    "minProperties": 2
+                },
+                "ObjectPattern": {
+                    "consistent": true
+                },
+                "ImportDeclaration": {
+                    "consistent": true
+                },
+                "ExportDeclaration": {
+                    "multiline": true
+                }
             }
         ],
         "object-property-newline": ["error"],
@@ -160,7 +175,25 @@
             }
         ],
         "curly": "error",
-        "semi-spacing": "error"
+        "semi-spacing": "error",
+        "shopify/prefer-early-return": "warn",
+        "shopify/jquery-dollar-sign-reference": "warn",
+        "promise/always-return": "warn",
+        "promise/no-return-wrap": "warn",
+        "promise/param-names": "warn",
+        "promise/catch-or-return": "warn",
+        "promise/no-native": "off",
+        "promise/no-nesting": "warn",
+        "promise/no-promise-in-callback": "warn",
+        "promise/no-callback-in-promise": "warn",
+        "promise/avoid-new": "warn",
+        "promise/no-new-statics": "warn",
+        "promise/no-return-in-finally": "warn",
+        "promise/valid-params": "warn",
+        "compat/compat": "error"
+    },
+    "settings": {
+        "polyfills": ["promises"]
     }
-}
 
+}
