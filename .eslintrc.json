@@ -19,7 +19,8 @@
         "regru",
         "shopify",
         "promise",
-        "compat"
+        "compat",
+        "optimize-regex"
     ],
     "rules": {
         "indent": [
@@ -50,6 +51,7 @@
         "block-scoped-var": "error",
         "no-use-before-define": ["error", { "functions": false, "classes": false }],
         "complexity": ["error", 20],
+        "no-else-return": "error",
         "no-empty-function": [
             "warn"
         ],
@@ -144,7 +146,7 @@
         "newline-after-var": ["error", "always"],
         "newline-before-return": "error",
         "object-curly-newline": [
-            "warn",
+            "error",
             {
                 "ObjectExpression": {
                     "consistent": true,
@@ -179,21 +181,22 @@
         ],
         "curly": "error",
         "semi-spacing": "error",
-        "shopify/prefer-early-return": "warn",
+        "shopify/prefer-early-return": "error",
         "shopify/jquery-dollar-sign-reference": "warn",
         "promise/always-return": "warn",
-        "promise/no-return-wrap": "warn",
-        "promise/param-names": "warn",
+        "promise/no-return-wrap": "error",
+        "promise/param-names": "error",
         "promise/catch-or-return": "warn",
         "promise/no-native": "off",
         "promise/no-nesting": "warn",
         "promise/no-promise-in-callback": "warn",
         "promise/no-callback-in-promise": "warn",
         "promise/avoid-new": "warn",
-        "promise/no-new-statics": "warn",
+        "promise/no-new-statics": "error",
         "promise/no-return-in-finally": "warn",
         "promise/valid-params": "warn",
-        "compat/compat": "error"
+        "compat/compat": "error",
+        "optimize-regex/optimize-regex": "error"
     },
     "settings": {
         "polyfills": ["promises"]
