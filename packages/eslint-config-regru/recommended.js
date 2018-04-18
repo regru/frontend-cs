@@ -22,7 +22,7 @@ module.exports = {
         'promise',
         'optimize-regex',
     ],
-    rules    : require('./rules/recomended'),
+    rules    : require('./rules/recommended'),
     settings : {
         polyfills : ['promises'],
     },

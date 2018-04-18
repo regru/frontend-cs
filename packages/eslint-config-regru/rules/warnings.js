@@ -1,4 +1,4 @@
-const basis = require('./recomended');
+const basis = require('./recommended');
 
 module.exports = Object.assign( basis, {
 
