@@ -11,5 +11,8 @@
     "url": "git@git.reg.ru:regru/frontend-cs.git"
   },
   "author": "Ivan Sobolev",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^2.10.2"
+  }
 }
