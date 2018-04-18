@@ -9,7 +9,13 @@
   "author": "Andrey Makarychev <makarychev@reg.ru>",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">3.0.0"
+    "eslint": ">3.0.0",
+    "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-optimize-regex": "^1.1.5",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-regru": "^2.0.1",
+    "eslint-plugin-shopify": "^18.0.0",
+    "eslint-plugin-vue": "^4.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
