@@ -5,6 +5,11 @@ module.exports = {
         es6     : true,
         jquery  : true,
     },
+    parserOptions : {
+        parser      : 'babel-eslint',
+        ecmaVersion : 2017,
+        sourceType  : 'module',
+    },
     extends : [
         'eslint:recommended',
         'plugin:vue/recommended',
@@ -14,6 +19,7 @@ module.exports = {
         'regru',
         'shopify',
         'compat',
+        'promise',
         'optimize-regex',
     ],
     rules    : require('./rules/recomended'),

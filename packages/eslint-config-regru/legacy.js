@@ -5,6 +5,11 @@ module.exports = {
         es6     : true,
         jquery  : true,
     },
+    parserOptions : {
+        parser      : 'babel-eslint',
+        ecmaVersion : 2017,
+        sourceType  : 'module',
+    },
     extends : [ 'eslint:recommended' ],
     plugins : [
         'regru',
