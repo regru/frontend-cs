@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-regru",
   "version": "1.0.0",
-  "description": "",
+  "description": "eslint configs",
   "main": "recommended.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
