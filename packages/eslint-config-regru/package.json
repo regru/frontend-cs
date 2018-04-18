@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-regru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recommended.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Makarychev <makarychev@reg.ru>",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-regru": "^2.0.1"
+  }
+}
