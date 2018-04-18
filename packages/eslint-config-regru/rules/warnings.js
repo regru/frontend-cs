@@ -9,10 +9,12 @@ module.exports = Object.assign( basis, {
 
     'optimize-regex/optimize-regex' : 'warn',
 
-    'promise/always-return'          : 'warn',
-    'promise/no-return-wrap'         : 'warn',
-    'promise/param-names'            : 'warn',
-    'promise/catch-or-return'        : 'warn',
+    'promise/always-return'   : 'warn',
+    'promise/no-return-wrap'  : 'warn',
+    'promise/param-names'     : 'warn',
+    'promise/catch-or-return' : ['warn', {
+        terminationMethod : ['catch', 'fail'],
+    }],
     'promise/no-native'              : 'off',
     'promise/no-nesting'             : 'warn',
     'promise/no-promise-in-callback' : 'warn',
