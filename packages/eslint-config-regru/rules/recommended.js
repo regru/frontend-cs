@@ -112,6 +112,7 @@ module.exports = {
         },
     ],
     'keyword-spacing' : ['error', { 'before': true }],
+    'quote-props'     : ['error', 'as-needed'],
     'max-len'         : [
         2,
         120,
