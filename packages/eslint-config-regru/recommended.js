@@ -20,7 +20,6 @@ module.exports = {
         'shopify',
         'compat',
         'promise',
-        'optimize-regex',
     ],
     rules    : require('./rules/recommended'),
     settings : {

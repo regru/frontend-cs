@@ -17,7 +17,6 @@ module.exports = {
         'promise',
         'shopify',
         'compat',
-        'optimize-regex',
     ],
     rules : require('./rules/warnings'),
 };
