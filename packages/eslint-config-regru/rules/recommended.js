@@ -166,7 +166,6 @@ module.exports = {
     'shopify/prefer-early-return'          : 'error',
     'shopify/jquery-dollar-sign-reference' : 'warn',
     'compat/compat'                        : 'error',
-    'optimize-regex/optimize-regex'        : 'error',
 
     'promise/catch-or-return' : ['error', {
         terminationMethod : ['catch', 'fail'],
