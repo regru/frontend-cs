@@ -21,5 +21,8 @@
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-plugin-regru": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
