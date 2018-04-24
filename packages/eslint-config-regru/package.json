@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-regru",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "eslint configs",
   "main": "recommended.js",
   "scripts": {
@@ -11,7 +11,6 @@
   "peerDependencies": {
     "eslint": ">3.0.0",
     "eslint-plugin-compat": "^2.2.0",
-    "eslint-plugin-optimize-regex": "^1.1.5",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-regru": "^2.0.1",
     "eslint-plugin-shopify": "^18.0.0",
