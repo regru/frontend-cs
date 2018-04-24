@@ -171,4 +171,6 @@ module.exports = {
     'promise/catch-or-return' : ['error', {
         terminationMethod : ['catch', 'fail'],
     }],
+
+    'vue/html-indent' : ['error', 4]
 };

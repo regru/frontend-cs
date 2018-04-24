@@ -62,7 +62,7 @@ module.exports = Object.assign( basis, {
     // vue strongly recommended
     'vue/attribute-hyphenation'          : 'warn',
     'vue/html-end-tags'                  : 'warn',
-    'vue/html-indent'                    : 'warn',
+    'vue/html-indent'                    : ['warn', 4],
     'vue/html-self-closing'              : 'warn',
     'vue/max-attributes-per-line'        : 'warn',
     'vue/mustache-interpolation-spacing' : 'warn',
