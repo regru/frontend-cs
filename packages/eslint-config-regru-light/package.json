@@ -8,11 +8,23 @@
     "prepublish": "eslint --fix ./*.js"
   },
   "author": "Andrey Makarychev <shiftmailbox@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "eslint-plugin-regru": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "^4.19.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regru/eslint-config-regru-light.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/regru/eslint-config-regru-light/issues"
+  },
+  "homepage": "https://github.com/regru/eslint-config-regru-light#readme"
 }
