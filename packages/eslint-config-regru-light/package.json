@@ -1,0 +1,18 @@
+{
+  "name": "@regru/eslint-config-regru-light",
+  "version": "1.0.0",
+  "description": "ligthweight eslint config for REGRU projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "eslint --fix ./*.js"
+  },
+  "author": "Andrey Makarychev <shiftmailbox@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-regru": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
