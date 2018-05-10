@@ -1,0 +1,3 @@
+{
+  "extends": "../eslint-config-regru-light/index.js"
+}
