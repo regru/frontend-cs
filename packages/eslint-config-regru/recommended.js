@@ -7,13 +7,14 @@ module.exports = {
     },
     parserOptions : {
         parser      : 'babel-eslint',
-        ecmaVersion : 2017,
+        ecmaVersion : 2017, // eslint-disable-line no-magic-numbers
         sourceType  : 'module',
     },
     extends : [
         'eslint:recommended',
         'plugin:vue/recommended',
         'plugin:promise/recommended',
+        'regru-light',
     ],
     plugins : [
         'regru',

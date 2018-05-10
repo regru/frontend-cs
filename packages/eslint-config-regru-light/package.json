@@ -17,14 +17,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/regru/eslint-config-regru-light.git"
+    "url": "https://github.com/regru/frontend-cs/tree/master/packages/eslint-config-regru-light"
   },
   "keywords": [
     "eslint",
     "config"
   ],
   "bugs": {
-    "url": "https://github.com/regru/eslint-config-regru-light/issues"
+    "url": "https://github.com/regru/frontend-cs/issues"
   },
-  "homepage": "https://github.com/regru/eslint-config-regru-light#readme"
+  "homepage": "https://github.com/regru/frontend-cs#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -1,26 +1,37 @@
 {
-  "name": "eslint-config-regru",
+  "name": "@regru/eslint-config-regru",
   "version": "1.4.0",
-  "description": "eslint configs",
+  "description": "eslint config for REGRU projects",
   "main": "recommended.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Andrey Makarychev <makarychev@reg.ru>",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": ">3.0.0",
     "eslint-plugin-compat": "^2.2.0",
     "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-regru": "^2.0.1",
     "eslint-plugin-shopify": "^18.0.0",
     "eslint-plugin-vue": "^4.0.0"
+  },
+  "dependencies": {
+    "@regru/eslint-config-regru-light": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-plugin-regru": "^2.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regru/frontend-cs/tree/master/packages/eslint-config-regru"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/regru/frontend-cs/issues"
+  },
+  "homepage": "https://github.com/regru/frontend-cs#readme",
   "publishConfig": {
     "access": "public"
   }

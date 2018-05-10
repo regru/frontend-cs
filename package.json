@@ -4,7 +4,8 @@
   "description": "`make cs target=$(path_to_your_folder)`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "lerna exec -- npx  eslint --fix ./"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,8 @@
   "author": "Ivan Sobolev",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-regru": "^2.0.2",
     "lerna": "^2.10.2"
   }
 }

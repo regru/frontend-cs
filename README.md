@@ -1,31 +1,24 @@
-# Frontend Code Style и его конфиги
+# Frontend Code Style configs
 
-- [CodeStyle](doc/cs.md)
-- [Vue.js Style Guide](doc/vue.md)
-- [Vue.js Cookbook](doc/vue-cookbook.md)
-- [Настройки редакторов](doc/editors.md)
+Lerna project which contains shared eslint configs `eslint-config-regru` and `eslint-config-regru-light`
 
-## Подключение
+## Usage
 
-`make cs target=path_to_your_folder`
+### eslint-config-regru-light
 
+[eslint-config-regru-light](./pachages/eslint-config-regru-light) Lightwight version with basic eslint rule
 
-Всё, что он делает:
- - обновляет репозиторий
- - устанавливает npm модули для cs
- - копирует файлы cs-технологий в указанную папку.
+```bash
+npm i -D eslint-config-regru-light
+```
 
-## Использование
+### eslint-config-regru
 
-1. Склонировать репозиторий в соседнюю с целовой папку ../frontend-cs
-2. Добавить скрипт `cd ../frontend-cs && make cs target=my_folder` к себе куда-нибудь в:
-- package.json
-- Makefile
-- своё...
+[eslint-config-regru](./pachages/eslint-config-regru) Full version of CS with external plugins
 
-- `make init target=my_folder` - обновляет репо, ставит npm-модули, копирует файлы
-- `make cs target=my_folder` - обновляет репо, копирует файлы
-
+```bash
+npm i -D eslint-config-regru
+```
 
 
 
