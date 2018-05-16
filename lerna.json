@@ -3,6 +3,5 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent",
-  "registry": "https://verdaccio.dev.reg.ru"
+  "version": "independent"
 }
