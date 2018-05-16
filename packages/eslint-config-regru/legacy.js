@@ -10,7 +10,11 @@ module.exports = {
         ecmaVersion : 2017, // eslint-disable-line no-magic-numbers
         sourceType  : 'module',
     },
-    extends : [ 'eslint:recommended', 'plugin:vue/recommended' ],
+    extends : [
+        'eslint:recommended',
+        'plugin:vue/recommended',
+        '@regru/regru-light',
+    ],
     plugins : [
         'regru',
         'vue',
