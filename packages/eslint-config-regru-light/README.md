@@ -4,5 +4,5 @@ Ligthweight eslint config for REGRU projects
 
 ## Usage
 ```javascript
-extends: 'regru-light'
+extends: '@regru/regru-light'
 ```
