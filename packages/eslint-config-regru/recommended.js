@@ -14,7 +14,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:vue/recommended',
         'plugin:promise/recommended',
-        'regru-light',
+        '@regru/regru-light',
     ],
     plugins : [
         'regru',
