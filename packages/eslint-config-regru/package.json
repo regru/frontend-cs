@@ -1,6 +1,6 @@
 {
   "name": "@regru/eslint-config-regru",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "eslint config for REGRU projects",
   "main": "recommended.js",
   "author": "Andrey Makarychev <makarychev@reg.ru>",
