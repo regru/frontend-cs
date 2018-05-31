@@ -18,9 +18,10 @@ module.exports = {
     ],
     plugins : [
         'regru',
-        'shopify',
         'compat',
         'promise',
+        '@regru/jquery-dollar-sign-reference',
+        '@regru/prefer-early-return',
     ],
     rules    : require('./rules/recommended'),
     settings : {

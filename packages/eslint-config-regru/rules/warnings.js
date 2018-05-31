@@ -2,8 +2,8 @@ const basis = require('./recommended');
 
 module.exports = Object.assign( basis, {
 
-    'shopify/prefer-early-return'          : 'warn',
-    'shopify/jquery-dollar-sign-reference' : 'warn',
+    '@regru/prefer-early-return/prefer-early-return'                   : 'warn',
+    '@regru/jquery-dollar-sign-reference/jquery-dollar-sign-reference' : 'warn',
 
     'compat/compat' : 'warn',
 

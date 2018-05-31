@@ -19,8 +19,9 @@ module.exports = {
         'regru',
         'vue',
         'promise',
-        'shopify',
         'compat',
+        '@regru/jquery-dollar-sign-reference',
+        '@regru/prefer-early-return',
     ],
     rules : require('./rules/warnings'),
 };

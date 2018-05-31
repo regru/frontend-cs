@@ -8,12 +8,13 @@
   "peerDependencies": {
     "eslint": ">3.0.0",
     "eslint-plugin-compat": "^2.2.0",
-    "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-shopify": "^18.0.0",
     "eslint-plugin-vue": "^4.0.0"
   },
   "dependencies": {
-    "@regru/eslint-config-regru-light": "^2.0.0"
+    "@regru/eslint-config-regru-light": "^2.0.0",
+    "@regru/eslint-plugin-jquery-dollar-sign-reference": "^1.0.0",
+    "@regru/eslint-plugin-prefer-early-return": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
