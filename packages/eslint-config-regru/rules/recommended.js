@@ -9,4 +9,8 @@ module.exports = {
     }],
 
     'vue/html-indent' : ['error', 4],
+
+    'valid-jsdoc' : ['error', {
+        requireReturnDescription : false,
+    }],
 };
