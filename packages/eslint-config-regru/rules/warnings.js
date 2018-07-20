@@ -79,4 +79,9 @@ module.exports = Object.assign( basis, {
     'vue/no-confusing-v-for-v-if' : 'warn',
     'vue/order-in-components'     : 'warn',
     'vue/this-in-template'        : 'warn',
+
+    // native
+    'valid-jsdoc' : ['warn', {
+        requireReturnDescription : false,
+    }],
 } );
