@@ -4,6 +4,7 @@ module.exports = {
         node    : true,
         es6     : true,
         jquery  : true,
+        'jest/globals': true,
     },
     parserOptions : {
         parser      : 'babel-eslint',
@@ -20,6 +21,7 @@ module.exports = {
         'vue',
         'promise',
         'compat',
+        'jest',
         '@regru/jquery-dollar-sign-reference',
         '@regru/prefer-early-return',
     ],

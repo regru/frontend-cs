@@ -9,4 +9,11 @@ module.exports = {
     }],
 
     'vue/html-indent' : ['error', 4],
+    
+    'jest/consistent-test-it': 'error',
+    'jest/prefer-to-be-null': 'error',
+    'jest/prefer-to-be-undefined': 'error',
+    'jest/no-large-snapshots': ['error', { 
+        maxSize: 1500,
+    }],
 };
