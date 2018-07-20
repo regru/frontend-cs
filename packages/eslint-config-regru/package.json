@@ -1,6 +1,6 @@
 {
   "name": "@regru/eslint-config-regru",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "eslint config for REGRU projects",
   "main": "recommended.js",
   "author": "Andrey Makarychev <makarychev@reg.ru>",
@@ -8,9 +8,9 @@
   "peerDependencies": {
     "eslint": ">3.0.0",
     "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-jest": "^21.18.0",
     "eslint-plugin-shopify": "^18.0.0",
-    "eslint-plugin-vue": "^4.0.0",
-    "eslint-plugin-jest": "^21.18.0"
+    "eslint-plugin-vue": "^4.0.0"
   },
   "dependencies": {
     "@regru/eslint-config-regru-light": "^2.0.0",
