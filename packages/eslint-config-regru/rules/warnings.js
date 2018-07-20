@@ -84,4 +84,19 @@ module.exports = Object.assign( basis, {
     'valid-jsdoc' : ['warn', {
         requireReturnDescription : false,
     }],
+
+    // jest recommended
+    'jest/no-disabled-tests'     : 'warn',
+    'jest/no-focused-tests'      : 'warn',
+    'jest/no-identical-title'    : 'warn',
+    'jest/no-jest-import'        : 'warn',
+    'jest/prefer-to-have-length' : 'warn',
+    'jest/valid-expect'          : 'warn',
+
+    'jest/consistent-test-it'     : 'warn',
+    'jest/prefer-to-be-null'      : 'warn',
+    'jest/prefer-to-be-undefined' : 'warn',
+    'jest/no-large-snapshots'     : ['warn', {
+        maxSize: 1500,
+    }],
 } );
