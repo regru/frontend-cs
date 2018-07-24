@@ -80,18 +80,23 @@ module.exports = Object.assign( basis, {
     'vue/order-in-components'     : 'warn',
     'vue/this-in-template'        : 'warn',
 
-    // jest recommended
-    'jest/no-disabled-tests': 'warn',
-    'jest/no-focused-tests': 'warn',
-    'jest/no-identical-title': 'warn',
-    'jest/no-jest-import': 'warn',
-    'jest/prefer-to-have-length': 'warn',
-    'jest/valid-expect': 'warn',
+    // native
+    'valid-jsdoc' : ['warn', {
+        requireReturnDescription : false,
+    }],
 
-    'jest/consistent-test-it': 'warn',
-    'jest/prefer-to-be-null': 'warn',
-    'jest/prefer-to-be-undefined': 'warn',
-    'jest/no-large-snapshots': ['warn', { 
+    // jest recommended
+    'jest/no-disabled-tests'     : 'warn',
+    'jest/no-focused-tests'      : 'warn',
+    'jest/no-identical-title'    : 'warn',
+    'jest/no-jest-import'        : 'warn',
+    'jest/prefer-to-have-length' : 'warn',
+    'jest/valid-expect'          : 'warn',
+
+    'jest/consistent-test-it'     : 'warn',
+    'jest/prefer-to-be-null'      : 'warn',
+    'jest/prefer-to-be-undefined' : 'warn',
+    'jest/no-large-snapshots'     : ['warn', {
         maxSize: 1500,
     }],
 } );
