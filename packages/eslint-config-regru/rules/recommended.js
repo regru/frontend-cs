@@ -14,6 +14,11 @@ module.exports = {
         requireReturnDescription : false,
     }],
 
+    'vue/html-closing-bracket-newline' : ['error', {
+        singleline : 'never',
+        multiline  : 'always',
+    }],
+
     'jest/consistent-test-it'     : 'error',
     'jest/prefer-to-be-null'      : 'error',
     'jest/prefer-to-be-undefined' : 'error',
