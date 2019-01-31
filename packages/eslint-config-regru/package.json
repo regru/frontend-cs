@@ -1,6 +1,6 @@
 {
   "name": "@regru/eslint-config-regru",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "eslint config for REGRU projects",
   "main": "recommended.js",
   "author": "Andrey Makarychev <makarychev@reg.ru>",
@@ -13,7 +13,7 @@
     "eslint-plugin-vue": "^4.0.0"
   },
   "dependencies": {
-    "@regru/eslint-config-regru-light": "^2.1.0",
+    "@regru/eslint-config-regru-light": "^2.1.1",
     "@regru/eslint-plugin-jquery-dollar-sign-reference": "^1.0.0",
     "@regru/eslint-plugin-prefer-early-return": "^1.0.0"
   },
