@@ -13,6 +13,7 @@ module.exports = {
     extends : [ 'eslint:recommended' ],
     plugins : [
         'regru',
+        '@regru/one-var',
     ],
     rules : require('./rules'),
 };

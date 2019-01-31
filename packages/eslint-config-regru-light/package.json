@@ -10,6 +10,7 @@
   "author": "Andrey Makarychev <shiftmailbox@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@regru/eslint-plugin-one-var": "^1.0.0",
     "eslint-plugin-regru": "^2.0.2"
   },
   "devDependencies": {

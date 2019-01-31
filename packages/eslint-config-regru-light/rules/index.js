@@ -134,7 +134,7 @@ module.exports = {
     'no-inner-declarations'        : 1,
     'one-var-declaration-per-line' : ['error', 'always'],
     camelcase                      : ['warn', { properties: 'never' }],
-    'one-var'                      : ['warn', 'never'],
+    '@regru/one-var/one-var'       : ['warn', 'never'],
     'newline-after-var'            : ['error', 'always'],
     'newline-before-return'        : 'error',
     'object-curly-newline'         : [
