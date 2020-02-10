@@ -6,7 +6,7 @@ Lerna project which contains shared eslint configs `eslint-config-regru` and `es
 
 ### eslint-config-regru-light
 
-[eslint-config-regru-light](./pachages/eslint-config-regru-light) Lightwight version with basic eslint rule
+[eslint-config-regru-light](./packages/eslint-config-regru-light) Lightwight version with basic eslint rule
 
 ```bash
 npm i -D @regru/eslint-config-regru-light
@@ -14,7 +14,7 @@ npm i -D @regru/eslint-config-regru-light
 
 ### eslint-config-regru
 
-[eslint-config-regru](./pachages/eslint-config-regru) Full version of CS with external plugins
+[eslint-config-regru](./packages/eslint-config-regru) Full version of CS with external plugins
 
 ```bash
 npm i -D @regru/eslint-config-regru
